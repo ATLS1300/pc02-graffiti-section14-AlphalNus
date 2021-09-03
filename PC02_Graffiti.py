@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Sep  3 16:53:22 2021
-
 @author: Sai Ma
 """
 
@@ -26,6 +25,12 @@ turtle.color("CadetBlue")
 turtle.circle(45)
 turtle.fillcolor("cyan")
 turtle.end_fill()
+
+turtle.up()
+turtle.goto(150,-150)
+turtle.down()
+turtle.right(90)
+turtle.fd(100)
 
 turtle.up()
 turtle.goto(85,85)
