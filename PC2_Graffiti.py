@@ -28,6 +28,12 @@ turtle.fillcolor("cyan")
 turtle.end_fill()
 
 turtle.up()
+turtle.goto(150,-150)
+turtle.down()
+turtle.right(90)
+turtle.fd(100)
+
+turtle.up()
 turtle.goto(85,85)
 turtle.down()
 turtle.pensize(3)
